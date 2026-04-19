@@ -7,3 +7,4 @@ This paper proposes an improved composed image retrieval system that combines CL
 # Phase 1
 Presented in Offline
 # Phase 2 
+https://drive.google.com/file/d/1TDbZzgvj5VA9E4OvI4AKtvIPAISVJzFv/view?usp=sharing
