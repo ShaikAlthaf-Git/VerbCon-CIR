@@ -1,2 +1,9 @@
+# Abstract
+Composed Image Retrieval (CIR) aims to retrieve a target image using a query image and a natural language modification. Recent approaches, such as ConText-CIR, improve retrieval performance by enforcing alignment between noun phrases and corresponding image regions. However, these methods primarily capture where a concept appears, while neglecting what transformation is applied to it, which is governed by verbs.In this work, we propose VerbCon-CIR, a novel frameworkthat extends concept-consistency grounding by incorporatingverb-aware reasoning. We introduce a Verb-Concept Consistency (VCC) loss that models directional grounding based on verb
+semantics, enabling the model to distinguish between addition,removal, and neutral transformations. This allows the system to better capture semantic intent in complex textual modifications.Additionally, we propose a learnable temperature parameter for contrastive learning, replacing the fixed scaling factorand improving training stability across different stages. We further address a critical implementation issue by introducing a correct word-to-subword token mapping, ensuring accurate cross-attention alignment. We also investigate a modality gap regularisation term and provide an analysis of its interactionwith contrastive objectives.
+Experimental results on the CIRR dataset demonstrate thatour modifications significantly improve retrieval performance,achieving a 2.7× improvement in Recall@1 over the baseline. Our findings highlight the importance of incorporating verb semanticsand adaptive optimisation strategies in composed image retrieval.
 # VerbCon-CIR
 This paper proposes an improved composed image retrieval system that combines CLIP-based vision-language embeddings, adaptive training strategies, and semantic consistency losses to better understand text-guided image modifications and retrieve the most relevant target images from a dataset.
+# Phase 1
+Presented in Offline
+# Phase 2 
